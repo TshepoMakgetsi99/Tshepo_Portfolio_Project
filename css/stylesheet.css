@@ -1,0 +1,458 @@
+body{
+   background-color: hotpink;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    /* display: none; */
+  
+    z-index: 2;
+    top: -20px;
+    left:20px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 0px;
+  right: 0px;
+  }
+  
+.Desktop{
+    display: none;
+
+}
+
+.icone{
+    position: relative;
+    left: 7.5px;
+    top: 0px;
+    z-index: 2;
+  }
+  .ico{
+    position: relative;
+    left: 20px;
+    top: 0px;
+    z-index: 2;
+  }
+  .ic{
+    position: relative;
+    left: 32px;
+    top: 0px;
+    z-index: 2;
+  }
+  .icons{
+    position: relative;
+    left: 44px;
+    top: 0px;
+    z-index: 2;
+  }
+
+  .dot {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: -30px;
+    left: 0px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 2;
+    
+  } 
+  .dots {
+    height: 35px;
+    width: 35px;
+    position: relative;
+    bottom: 25px;
+    left: 143px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    
+  } 
+  .name{
+    text-align: center;
+    color:  #eb5e28;
+}
+hr{
+    position: relative;
+    bottom: 10px;
+}
+
+.block{
+  
+
+    width: 100vw;
+    height: 40vh;
+    margin: auto;
+    text-align: center;
+    background:  rgb(56, 55, 55);;
+    
+}
+.tagline{
+    font-size: 5em;
+    
+}
+.tag{
+    color:  #f7931e;
+    text-align: center;
+}
+
+/*about section*/
+
+.about{
+    background:   rgb(56, 55, 55);
+    height: 110vh;
+    width: 100vw;
+    /* text-align: center; */
+    /* margin:auto; */
+}
+.box1{
+    background: rgb(231, 221, 221);
+    height: 160px;
+    width: 160px;
+    position: relative;
+    left: 50px;
+    
+}
+
+.myImg{
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+.button {
+    background-color:#eb5e28;
+    border-radius: 15px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  /*ADA graduate page*/
+  .graduate{
+    background: rgb(56, 55, 55);
+    width: auto;
+    height: 140vh;
+    text-align: center;
+    margin: auto;
+}
+
+.BTN{
+    background: grey;
+}
+
+.testimonial{
+      
+    background:rgb(56, 55, 55); 
+    width: auto;
+    height: 250vh;
+    margin: auto;
+   
+    
+}
+.logodiv{
+  display: flex;
+  
+  flex-direction: row;
+
+
+}
+.orangebox {
+  text-align: center;
+  width: 90px;
+  height: 90px;
+  background: #eb5e28;
+}
+
+
+.logo{
+    position: relative;
+    
+    display: flex;
+}
+.imgs{
+  position: relative;
+  
+  
+}
+.testmonialText{
+  position: absolute;
+  left: 150px;
+  
+  
+  
+}
+
+/* get in touch section*/
+
+.getintouch{
+    background:rgb(56, 55, 55); 
+    height: 90vh;
+    margin: auto;
+    position: relative;
+    text-align: center;
+
+}
+
+#fname{
+    background: white;
+    height: 5vh;
+    width: 80vw;
+    background-color: grey;
+}
+#email{
+    background-color: gray;
+    height: 5vh;
+    width: 80vw;
+}
+#message{
+    background: gray;
+    height: 25vh;
+    width: 80vw;
+
+}
+.footer{
+    text-align: center;
+    word-spacing: 30px;
+}
+.copy{
+    text-align: center;
+}
+
+  /* --------------------------------------------------------------media queries */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // -------------------------------------------------------------Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (orientation: landscape) { 
+   
+}
+
+/* // --------------------------------------------------------------Medium devices (tablets) */
+@media (min-width: 768px) {
+    .block{
+        
+        height: 30vh;
+
+    }
+}
+
+/* // --------------------------------------------------------------Large devices (ipad pro) */
+@media (min-width: 992px) { 
+    .block{
+        height: 30vh;
+    }
+   
+}
+  @media screen and (min-width: 1200px) {
+    
+    #myNav{
+    display: none;
+    }
+
+    .Desktop{
+    display: inline;
+    color: white;
+    position: relative;
+    bottom: 60px;
+    left: -30px;
+    }  
+
+    .dots{
+        display: none;
+    }
+   
+  .combined{
+     position: relative;
+     left: 1300px;
+     bottom: -90px;
+  }
+
+  hr{
+    position: relative;
+    top: 30px;
+}
+  #Home{
+    color: white;
+    position: relative;
+    left: 600px;
+    bottom:-105px;
+  
+}
+#AboutMe{
+    color: white;
+    position: relative;
+    left: 683px;
+    bottom: -86px;
+  
+}
+#JOURNEY{
+    color: white;
+    position: relative;
+    left: 800px;
+    bottom: -68px;
+   
+}
+#RESUME{
+    color: white;
+    position: relative;
+    left: 900px;
+    bottom: -50px;
+    
+}
+
+#TESTIMONIES{
+    color: white;
+    position: relative;
+    left: 1005px;
+    bottom: -30px;
+}
+
+.myName{
+    position: relative;
+    left: 90px;
+}
+
+.block{
+    width: 90vw;
+    height:50vh;
+
+    
+}
+p{
+    display: inline-block;
+    text-align: center;
+}
+
+/*about section*/
+
+
+
+.about{
+    width: 90vw;
+    height:90vh;
+    
+}
+.abt{
+    position: relative;
+    display: flex;
+    
+
+}
+.aboutImg{
+    position: relative;
+}
+.box1{
+    height: 290px;
+    width: 290px;
+    position: relative;
+    left: 150px;
+}
+.myImg{
+    height: 290px;
+    width: 290px;
+    position: relative;
+    
+}
+
+.aboutBTN{
+    display: none;
+}
+.myName{
+    position: relative;
+    left: 100px;
+    display: inline-block;
+}
+/* im a graduate section*/
+.graduate{
+    width:90vw;
+    height: 90vh;
+}
+
+/*testinonial section*/
+ .testimonial{
+     width: 90vw;
+     height: 130vh;
+ }
+
+
+ /*get in touch section */
+ .getintouch{
+     width: 90vw;
+     height: 80vh;
+ }
+ #fname{
+     width: 40vw;
+     
+ }
+ #email{
+     width: 40vw;
+ }
+ #message{
+     width: 40vw;
+ }
+
+ .copy{
+     text-align: center;
+     position: relative;
+ }
+.logodiv{
+text-align: center;
+}
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
