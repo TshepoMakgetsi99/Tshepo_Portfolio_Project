@@ -1,21 +1,39 @@
 body{
    background-color: hotpink;
+   font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
 }
 
-*{
+/* *{
     box-sizing: border-box;
+} */
+html{
+    overflow-x: hidden;
+}
+/* Fonts */
+h1{
+    font-weight: 500;
+}
+h1.tagline{
+    font-weight: 200;
+    font-size: 9em;
+    color: white;
+    margin:0;
+}
+span.lightgrey{
+    color: #808080;
 }
 
 .overlay {
     height: 100%;
     width: 100%;
-    /* display: none; */
-  
-    z-index: 2;
-    top: -20px;
-    left:20px;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
     background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
+   
   }
   
   .overlay-content {
@@ -45,14 +63,20 @@ body{
     right: 45px;
     font-size: 60px;
   }
-
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-  font-size: 40px;
-  top: 0px;
-  right: 0px;
-  }
   
+
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  .mobile{
+      position: relative;
+      left: 285px;
+      bottom: 57px;
+  }
+ 
 .Desktop{
     display: none;
 
@@ -61,25 +85,25 @@ body{
 .icone{
     position: relative;
     left: 7.5px;
-    top: 0px;
+    top: 13px;
     z-index: 2;
   }
   .ico{
     position: relative;
     left: 20px;
-    top: 0px;
+    top: 13px;
     z-index: 2;
   }
   .ic{
     position: relative;
     left: 32px;
-    top: 0px;
+    top: 13px;
     z-index: 2;
   }
   .icons{
     position: relative;
     left: 44px;
-    top: 0px;
+    top: 13px;
     z-index: 2;
   }
 
@@ -87,7 +111,7 @@ body{
     height: 30px;
     width: 30px;
     position: relative;
-    top: -30px;
+    top: -20px;
     left: 0px;
     border: 1px solid white;
     border-radius: 50%;
@@ -99,8 +123,8 @@ body{
     height: 35px;
     width: 35px;
     position: relative;
-    bottom: 25px;
-    left: 143px;
+    bottom: 15px;
+    left: 145px;
     border: 2px solid white;
     border-radius: 50%;
     display: inline-block;
@@ -109,26 +133,27 @@ body{
   .name{
     text-align: center;
     color:  #eb5e28;
+    margin-bottom: 150px;
 }
 hr{
     position: relative;
-    bottom: 10px;
+    bottom: 150px;
 }
 
 .block{
   
 
-    width: 100vw;
+    width: 102vw;
     height: 40vh;
-    margin: auto;
+    /* margin: auto; */
     text-align: center;
+    position: relative;
+    left: -6px;
+    bottom: 30vh;
     background:  rgb(56, 55, 55);;
     
 }
-.tagline{
-    font-size: 5em;
-    
-}
+
 .tag{
     color:  #f7931e;
     text-align: center;
@@ -138,8 +163,12 @@ hr{
 
 .about{
     background:   rgb(56, 55, 55);
-    height: 110vh;
-    width: 100vw;
+    height: 90vh;
+    width: 102vw;
+    text-align: center;
+    position: relative;
+    left: -6px;
+    bottom: 30vh;
     /* text-align: center; */
     /* margin:auto; */
 }
@@ -148,20 +177,22 @@ hr{
     height: 160px;
     width: 160px;
     position: relative;
-    left: 50px;
+    left: 120px;
     
 }
 
-.myImg{
+.myName{
     position: relative;
-    left: 30px;
-    top: 30px;
+    margin-top: 20px;
 }
 
 .button {
     background-color:#eb5e28;
     border-radius: 15px;
     color: white;
+    position: relative;
+    bottom: 39vh;
+    left: 22vw;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -170,27 +201,132 @@ hr{
   }
 
   /*ADA graduate page*/
-  .graduate{
-    background: rgb(56, 55, 55);
-    width: auto;
-    height: 140vh;
+  .Grad{
+    background:   rgb(56, 55, 55);
+    height: 100vh;
+    width: 102vw;
     text-align: center;
-    margin: auto;
+    position: relative;
+    left: -8px;
+    bottom: 65vh;
+    /* text-align: center; */
+    /* margin:auto; */
 }
-
-.BTN{
-    background: grey;
-}
-
-.testimonial{
-      
-    background:rgb(56, 55, 55); 
-    width: auto;
-    height: 250vh;
-    margin: auto;
-   
+.box2{
+    background: rgb(231, 221, 221);
+    height: 160px;
+    width: 160px;
+    position: relative;
+    left: 120px;
     
 }
+
+.myGrad{
+    position: relative;
+    margin-top: 20px;
+}
+
+.butto {
+    background-color:#eb5e28;
+    border-radius: 15px;
+    color: white;
+    position: relative;
+    bottom: 83vh;
+    left: 22vw;
+    height: 40px;
+    width: 60%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .tags{
+    color:  #f7931e;
+    text-align: center;
+}
+.BTN{
+    background: grey;
+    position: relative;
+    bottom: 83vh;
+}
+
+ /*testimonial section*/
+
+ .testimonial{
+      
+      background:rgb(56, 55, 55); 
+      width: 102vw;
+      height: 180vh;
+     position: relative;
+     bottom: 82vh;
+     left: -10px;
+     
+      
+  }
+  .orangebox {
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    background: #eb5e28;
+}
+
+.adaboxx{
+    position: relative;
+    left: 40px;
+    height: 20vh;
+    width: 20vw;
+
+}
+.Adabox{  
+    width: 20vw;
+}
+.Adabox1{
+    position: relative;
+    bottom: 23vh;
+}
+.one{
+    position: relative;
+    bottom: 24vh;
+}
+.Adabox2{
+    bottom: 280px;
+}
+.two{
+    position: relative;
+    bottom: 45vh;
+}
+.Adabox3{
+   bottom: 430px;
+}
+.three{
+    position: relative;
+    bottom:69vh;
+}
+.textss{
+   bottom: 150px;
+    
+}
+.textss1{
+  bottom: 300px;  
+}
+.textss2{
+   bottom: 430px;  
+}
+.textss3{
+    bottom: 580px;    
+}
+.textbox{
+    position: relative;
+    display: flex;
+    left: 150px;
+    height: 40vh;
+    width: 50vw;
+    text-align: left;
+
+}
+ 
+
+
 .logodiv{
   display: flex;
   
@@ -229,9 +365,11 @@ hr{
 .getintouch{
     background:rgb(56, 55, 55); 
     height: 90vh;
-    margin: auto;
+    width: 102vw;
     position: relative;
     text-align: center;
+    bottom: 80vh;
+    left: -6px;
 
 }
 
@@ -255,11 +393,39 @@ hr{
 .footer{
     text-align: center;
     word-spacing: 30px;
+    position: relative;
+    bottom: 80vh;
 }
 .copy{
     text-align: center;
+    position: relative;
+    bottom: 85vh;
 }
-
+.send{
+    position: relative;
+    top: 8vh;
+    left: -16px;
+}
+.git{
+    position: relative;
+    left:-23px;
+    top: 1vh;
+}
+.lin{
+    position: relative;
+    left:-8px;
+    top: 1vh;
+}
+.enve{
+    position: relative;
+    left:5px;
+    top: 1vh;
+}
+.pho{
+    position: relative;
+    left:23px;
+    top: 1vh;
+}
   /* --------------------------------------------------------------media queries */
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -267,7 +433,8 @@ hr{
 
 /* // -------------------------------------------------------------Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (orientation: landscape) { 
-   
+ 
+  
 }
 
 /* // --------------------------------------------------------------Medium devices (tablets) */
@@ -287,7 +454,9 @@ hr{
    
 }
   @media screen and (min-width: 1200px) {
-    
+    /* html{
+        overflow: hidden;
+    } */
     #myNav{
     display: none;
     }
@@ -296,10 +465,12 @@ hr{
     display: inline;
     color: white;
     position: relative;
-    bottom: 60px;
+    bottom: 35vh;
     left: -30px;
     }  
-
+    .mobile{
+    display: none;
+    }
     .dots{
         display: none;
     }
@@ -307,12 +478,12 @@ hr{
   .combined{
      position: relative;
      left: 1300px;
-     bottom: -90px;
-  }
+     bottom: -60px;
+    }
 
   hr{
     position: relative;
-    top: 30px;
+   bottom: 20vh;
 }
   #Home{
     color: white;
@@ -358,6 +529,9 @@ hr{
 .block{
     width: 90vw;
     height:50vh;
+    position: relative;
+    bottom: 30vh;
+    left: 80px;
 
     
 }
@@ -373,14 +547,16 @@ p{
 .about{
     width: 90vw;
     height:90vh;
+    position: relative;
+    left: 80px
     
 }
-.abt{
+/* .abt{
     position: relative;
     display: flex;
     
 
-}
+} */
 .aboutImg{
     position: relative;
 }
