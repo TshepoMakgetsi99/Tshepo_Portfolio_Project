@@ -1,261 +1,121 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- test by laura -->
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Google fonts link -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/stylesheet.css">
     <title>Hello, world!</title>
+  
   </head>
   <body>
 
 
-   <div class="combined">
-     
-    <div class="col-sm-8" ">
-      <i class="fa fa-github icone" style="font-size: 20px; color: white;" ></i>
-      <i class="fa fa-linkedin ico" style="font-size: 20px; color: white;"></i>
-      <i class="fa fa-envelope ic" style="font-size: 20px; color: white;"></i>
-      <i class="fa fa-phone icons" style="font-size: 18px; color: white;"></i>
+  <!-- icons -->
+  <div class="container icons">
+    <div class="row my-3">
+      <div class="col-10 col-xl-12">
+        <div class="icon"><a href="#"><i class="fa fa-github"></i></a></div>
+        <div class="icon"><a href="#"><i class="fa fa-linkedin"></i></a></div>
+        <div class="icon"><a href="#"><i class="fa fa-envelope"></i></a></div>
+        <div class="icon"><a href="#"><i class="fa fa-phone"></i></a></div>
+      </div>
+      <div class="col-2">
+        <div class="icon mobile" onclick="openNav()">&#9776;</div>
+      </div>
     </div>
+  </div>
 
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dots"></div>
-  </div>
-  <div id="myNav" class="overlay">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <div class="overlay-content">
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Clients</a>
-      <a href="#">Contact</a>
-    </div>
-  </div>
-  
-  
-  <span class="mobile" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-  
-  <div class="name">
-    <h1>Tshepo</h1>
-</div>
-<hr> 
-    <!-- Desktop content -->
-     <div class="container Desktop">
-        <div class="row row-cols-6">
-          <div id="Home" class="col  ">HOME</div>
-          <div id="AboutMe" class="col ">ABOUT ME</div>
-          <div id="JOURNEY" class="col ">JOURNEY</div>
-          <div id="RESUME" class="col ">RESUME</div>
-          <div id="TESTIMONIES" class="col ">TESTIMONIES</div>
+  <!-- hidden navigation menu on mobile -->
+  <div id="myNav" class="overlay container-fluid">
+    <div class="row my-3">
+      <div class="col-12">
+        <div class="icon"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></div>
+      </div>
+      <div class="col-12 my-5">
+        <div class="overlay-content text-center">
+          <ul>
+            <li><a href="#" class="active">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">journey</a></li>
+            <li><a href="#">resume</a></li>
+            <li><a href="#">get in touch</a></li>
+          </ul>
         </div>
       </div>
-    
-      <br>
+    </div>
+  </div>
+  
+  <!-- header name and hr -->
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-12 text-center">
+        <h1 class="hot-pink">Tshepo</h1>
+        <hr>
+      </div>
+    </div>
+  </div>
 
- <div class="block">
-     <h1 class="tagline"><span class="lightgrey">&lcub;</span>HI<span class="lightgrey">&rcub;</span></h1>
-     <p class="tag"> &lt;&rcy;&gt <strong>Experience is the name everyone <br>  gives to their mistakes.</strong> &lt;&sol;&rcy;&gt</p>
-     </div>
 
- 
-
-  <br><br>
-
-<!-- bout section--> 
-<div class="container">
+  <!-- Desktop content -->
+  <div class="container Desktop">
     <div class="row">
-      <div class="col-4 about">
-     <br>
-     <h2 class="tag">About me</h2>
-<!-- <div class="abt"> -->
-    <div class="box1">
-     <img src="Assets/IMG-20191112-WA0148.jpg" alt="" width="160px" height="160px" class="myImg">
-    </div>
-
-     <p class="myName"> I am energetic about my work. Since I love what I do, I have a consistent wellspring of inspiration that drives me to put forth a valiant effort. This enthusiasm drives me to challenge myself every day and learn new abilities that help me to accomplish better work.
-
-        I am the type of person who arrives at work with a smile on my face every single day, and I make sure to always put my best foot forward.
-        I am a focused and organized person who is determined to achieve the best life has offered me in the way of opportunities.  I am an excellent communicator, a people’s person and am one who has empathy 
-    
-         I believe mindfulness in the workplace is key to success.</p>
-    </div>
-    </div>
-    <button class="button aboutBTN">More About Me</button>
-    </div>
-  
-    
-
- <br> <br> 
-
-  <!-- first set of the four pictures -->
-  <div class="row">
-    <div class="col yellow">
-
-        <div class="card one lines">
-        <div class="row">
-
-        <div class="col">
-         <div class="card-body">
-             <h5 class="card-title">
-                <a href="#">Heading</a>
-            </h5>
-
-            <h6 class="card-text">By Author:</h6>
-            <!-- <h6 class="card-text"><small class="text-muted">Last updated 3 mins ago</small></h6> -->
-            <h6 class="social">Social</h6>
-
-          </div>
-        </div>
-
-        <div class="col">
-        <img src="Assets/IMG-20191112-WA0148.jpg" class="card-img SocialTwo" alt="social issue:Fighting poverty" loading ="slow" width="5">
-
-       
-        </div>
-
-
-        </div>
-        </div>
-
-    </div>
-</div>
-
-
-
-
- <!--graduate section-->
- 
-      <br>
-     <div class="container">
-      <div class="row">
-        <div class="col-4 Grad">
-       <br>
-       <h2 class="tags">I AM AN ADA GRADUATE</h2>
-   <div class="abt"> -->
-       <div class="box2">
-       <img src="Assets/Ada_logo.jpg" alt="" width="160px" height="160px" class="myImg">
+      <div class="col-12 text-center">
+        <ul class="desktop-nav">
+          <li><a href="#" class="active">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">journey</a></li>
+            <li><a href="#">resume</a></li>
+            <li><a href="#">get in touch</a></li>
+          </ul>
+        </ul>
       </div>
-  
-       <p class="myGrad"> I am energetic about my work. Since I love what I do, I have a consistent wellspring of inspiration that drives me to put forth a valiant effort. This enthusiasm drives me to challenge myself every day and learn new abilities that help me to accomplish better work.
-  
+    </div>
+  </div>
+    
+  <!-- Hi! section -->
+  <section class="container dark-grey py-5">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="tagline"><span class="lightgrey">&lcub;</span>Hi!<span class="lightgrey">&rcub;</span></h1>
+      </div>
+      <div class="col-12 text-center my-5">
+        <p class="tag"><span class="lightgrey">&lt;&rcy;</span>&gtExperience is the name everyone gives to their <span class="span lightgrey">&lt;&sol;&rcy;&gt</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <div class="container">
+    <div class="row mt-7">
+      <div class="col-12 text-center">
+        <h1 class="hot-pink">About Me</h1>
+      </div>
+    </div>
+  </div>
+
+  <section class="container dark-grey py-5">
+    <div class="row">
+      <div class="col-12 text-center">
+        <img src="Assets/IMG-20191112-WA0148.jpg" alt="" width="160px" height="160px" class="myImg">
+      </div>
+      <div class="col-12 text-center my-2">
+        <p class="myName"> I am energetic about my work. Since I love what I do, I have a consistent wellspring of inspiration that drives me to put forth a valiant effort. This enthusiasm drives me to challenge myself every day and learn new abilities that help me to accomplish better work.
+
           I am the type of person who arrives at work with a smile on my face every single day, and I make sure to always put my best foot forward.
           I am a focused and organized person who is determined to achieve the best life has offered me in the way of opportunities.  I am an excellent communicator, a people’s person and am one who has empathy 
-      
+       
            I believe mindfulness in the workplace is key to success.</p>
       </div>
-      </div>
-      </div>
-      <button class="button BTN">My journey at ADA</button>
-    <br> <br>
-    <button class="butto ">View My CV</button> 
-
-  </div> 
-<br><br>
-       
-<!--Testimonial sectiond-->
-
-
-
-
-
-
-
-
-
-<div class="testimonial">
-  <br>
-  <h2 class="tag">Testimonials</h2>
-
-
-  <div class="adabox adaboxx">
-  <img src="Assets/Ada_logo.jpg" alt="" height="90px" width="90px" class="logo"> 
-  <div class="orangebox"> <i class="fa fa-linkedin" style="font-size: 20px; color: white;"></i><br> contact <br> ADA</div>
- </div>
-  <p class="textss textbox"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet tempore temporibus inventore blanditiis, ex alias quod corporis, doloribus dignissimos non odio? Optio illo nam numquam, voluptatem dolore accusantium ab.</p>
-  
-    <br>
-    <div class="adaboxx">
-  <img src="Assets/Laura.jpg" alt="" height="90px" width="90px" class="imgs Adabox1 ">
-  <div class="orangebox one"> <i class="fa fa-linkedin " style="font-size: 20px; color: white;"></i><br> contact <br> ADA</div>
- </div>
-  <p class="textss1 textbox">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis animi quidem libero numquam officia recusandae et suscipit, ea laboriosam sequi labore voluptates reiciendis adipisci voluptatibus, dolorum architecto? Sit, alias harum?</p>
-
-  <div class=" adaboxx">
-  <img src="Assets/Andrea.jpg" alt=""  height="90px" width="90px" class="imgs Adabox2">
-  <div class="orangebox two"> <i class="fa fa-linkedin " style="font-size: 20px; color: white;"></i><br> contact <br> ADA</div>
-  </div>
-  <p class="textss2 textbox">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam porro fugiat est ex ullam voluptate? Illum, sapiente ipsum laborum aliquid obcaecati debitis, nulla ab cumque aperiam dolorem minima pariatur minus?</p>
-
-  <div class="adaboxx">
-  <img src="Assets/Kate.jpg" alt="" height="90px" width="90px" class="imgs Adabox3 ">
-  <div class="orangebox three"> <i class="fa fa-linkedin " style="font-size: 20px; color: white;"></i><br> contact <br> ADA</div>
-  </div>
-  <p class="textss3 textbox">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, inventore commodi aut porro nisi sunt alias quam ipsam autem enim accusamus et ipsa consequuntur est doloribus omnis architecto quos vel.</p>
-
-</div>
-
- <!-- get in touch section -->
- <br> <br>
- <div class="getintouch">
-     <br>
-     <h2 class="tag">Get in touch!</h2>
-
-
-     <p>LIke what you see? Drop me an email using the form below and I will get back to you as soon as possible. </p>
-
-     <p>Feel free to ask any questions that you have, as I am always happy to answer and help with new challenges.</p>
- 
-
-     <form action="">
-    
-        <input type="text" id="fname" name="firstname" placeholder="Your name">
-<br> <br>
-        <input type="text" id="email" name="email" placeholder=" your email">
-        <br> <br>
-        <input type="text" id="message" name="message" placeholder="Your message">
-        
-     </form> 
-
-    <button class="button send">Send!</button>
- 
- </div>
-
- <br> 
- <!--fotter-->
- <div class="footer" >
-
-  <div class="col-sm-8" ">
-    <i class="fa fa-github git" style="font-size: 20px; color: white;" ></i>
-    <i class="fa fa-linkedin lin" style="font-size: 20px; color: white;"></i>
-    <i class="fa fa-envelope enve" style="font-size: 20px; color: white;"></i>
-    <i class="fa fa-phone pho" style="font-size: 18px; color: white;"></i>
-  </div>
-
-  <div class="dot"></div>
-  <div class="dot"></div>
-  <div class="dot"></div>
-  <div class="dot"></div>
-        <!-- <i class="fa fa-github" style="font-size: 25px;" ></i>
-        <i class="fab fa-linkedin-in" background="white" style="font-size: 25px;"></i>
-        <i class="fa fa-envelope" style="font-size: 25px;"></i>
-        <i class="fa fa-phone" style="font-size: 25px;"></i>
- -->
-
-     
-
- </div>
- <p class="copy">copy right 2020, made by Tshepo</p>
+    </div>
+  </section>
 
     <!-- Optional JavaScript -->
     <script src="js/myscript.js"></script>

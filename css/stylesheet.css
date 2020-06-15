@@ -1,606 +1,594 @@
+
+
 body{
-    background-color: black;
-    font-family: 'Montserrat', sans-serif;
-     font-size: 1em;
- }
+   background-color: black;
+   font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+
+/* *{
+    box-sizing: border-box;
+} */
+html{
+    overflow-x: hidden;
+}
+
+/* Fonts */
+h1{
+    font-weight: 500;
+}
+h1.hot-pink{
+    color: hotpink;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+h1.tagline{
+    font-weight: 200;
+    font-size: 9em;
+    color: white;
+    margin:0;
+}
+span.lightgrey{
+    color: #808080;
+}
+p.tag{
+    color: hotpink;
+}
+
+
+/* icons */
+.icon{
+    display: inline-block;
+    font-size: 22px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 2px;
+}
+.icon a{
+    color: white;
+}
+.icon.mobile{
+    float: right;
+    color: white;
+}
+
+/* header: name and hr */
+hr{
+  width: 100%;
+  border-top: 1px white solid;  
+  opacity: 0.7  ;
+}
+
+/* general stuff */
+.dark-grey{
+    background: #333333;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+  }
+.overlay .icon{
+    float: right;
+    color: white;
+}
+.overlay-content ul{
+    list-style: none;
+    font-size: 2em;
+    font-weight: 700;
+}
+.overlay-content a{
+    color: white;
+    line-height: 2em;
+}
+.overlay-content a.active{
+    color: hotpink;
+}
  
- /* *{
-     box-sizing: border-box;
- } */
- html{
-     overflow-x: hidden;
- }
+.Desktop{
+    display: none;
+
+}
+
+
+
  
- /* Fonts */
- h1{
-     font-weight: 500;
- }
- h1.hot-pink{
-     color: hotpink;
-     letter-spacing: 0.2em;
-     text-transform: uppercase;
-     font-weight: 300;
- }
- h1.tagline{
-     font-weight: 200;
-     font-size: 9em;
-     color: white;
-     margin:0;
- }
- span.lightgrey{
-     color: #808080;
- }
- p.tag{
-     color: hotpink;
- }
- 
- 
- /* icons */
- .icon{
-     display: inline-block;
-     font-size: 22px;
-     border: 1.5px solid white;
-     border-radius: 50%;
-     height: 40px;
-     width: 40px;
-     text-align: center;
-     padding-top: 2px;
- }
- .icon a{
-     color: white;
- }
- .icon.mobile{
-     float: right;
-     color: white;
- }
- 
- /* header: name and hr */
- hr{
-   width: 100%;
-   border-top: 1px white solid;  
-   opacity: 0.7  ;
- }
- 
- /* general stuff */
- .dark-grey{
-     background: #333333;
- }
- 
- .overlay {
-     height: 100%;
-     width: 100%;
-     display: none;
-     position: fixed;
-     z-index: 1;
-     top: 0;
-     left: 0;
-     background-color: rgb(0,0,0);
-   }
- .overlay .icon{
-     float: right;
-     color: white;
- }
- .overlay-content ul{
-     list-style: none;
-     font-size: 2em;
-     font-weight: 700;
- }
- .overlay-content a{
-     color: white;
-     line-height: 2em;
- }
- .overlay-content a.active{
-     color: hotpink;
- }
-  
- .Desktop{
-     display: none;
- 
- }
- 
- 
- 
-  
-   .name{
-     text-align: center;
-     color:  #eb5e28;
-     margin-bottom: 150px;
- }
- 
- 
- 
- 
- .tag{
-     color:  #f7931e;
-     text-align: center;
- }
- 
- /*about section*/
- 
- .about{
-     background:   rgb(56, 55, 55);
-     height: 90vh;
-     width: 102vw;
-     text-align: center;
-     position: relative;
-     left: -6px;
-     bottom: 30vh;
-     /* text-align: center; */
-     /* margin:auto; */
- }
- .box1{
-     background: rgb(231, 221, 221);
-     height: 160px;
-     width: 160px;
-     position: relative;
-     left: 120px;
-     
- }
- 
- .myName{
-     position: relative;
-     margin-top: 20px;
- }
- 
- .button {
-     background-color:#eb5e28;
-     border-radius: 15px;
-     color: white;
-     position: relative;
-     bottom: 39vh;
-     left: 22vw;
-     padding: 15px 32px;
-     text-align: center;
-     text-decoration: none;
-     display: inline-block;
-     font-size: 16px;
-   }
- 
-   /*ADA graduate page*/
-   .Grad{
-     background:   rgb(56, 55, 55);
-     height: 100vh;
-     width: 102vw;
-     text-align: center;
-     position: relative;
-     left: -8px;
-     bottom: 65vh;
-     /* text-align: center; */
-     /* margin:auto; */
- }
- .box2{
-     background: rgb(231, 221, 221);
-     height: 160px;
-     width: 160px;
-     position: relative;
-     left: 120px;
-     
- }
- 
- .myGrad{
-     position: relative;
-     margin-top: 20px;
- }
- 
- .butto {
-     background-color:#eb5e28;
-     border-radius: 15px;
-     color: white;
-     position: relative;
-     bottom: 83vh;
-     left: 22vw;
-     height: 40px;
-     width: 60%;
-     text-align: center;
-     text-decoration: none;
-     display: inline-block;
-     font-size: 16px;
-   }
-   .tags{
-     color:  #f7931e;
-     text-align: center;
- }
- .BTN{
-     background: grey;
-     position: relative;
-     bottom: 83vh;
- }
- 
-  /*testimonial section*/
- 
-  .testimonial{
-       
-       background:rgb(56, 55, 55); 
-       width: 102vw;
-       height: 180vh;
-      position: relative;
-      bottom: 82vh;
-      left: -10px;
+  .name{
+    text-align: center;
+    color:  #eb5e28;
+    margin-bottom: 150px;
+}
+
+
+
+
+.tag{
+    color:  #f7931e;
+    text-align: center;
+}
+
+/*about section*/
+
+.about{
+    background:   rgb(56, 55, 55);
+    height: 90vh;
+    width: 102vw;
+    text-align: center;
+    position: relative;
+    left: -6px;
+    bottom: 30vh;
+    /* text-align: center; */
+    /* margin:auto; */
+}
+.box1{
+    background: rgb(231, 221, 221);
+    height: 160px;
+    width: 160px;
+    position: relative;
+    left: 120px;
+    
+}
+
+.myName{
+    position: relative;
+    margin-top: 20px;
+}
+
+.button {
+    background-color:#eb5e28;
+    border-radius: 15px;
+    color: white;
+    position: relative;
+    bottom: 39vh;
+    left: 22vw;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  /*ADA graduate page*/
+  .Grad{
+    background:   rgb(56, 55, 55);
+    height: 100vh;
+    width: 102vw;
+    text-align: center;
+    position: relative;
+    left: -8px;
+    bottom: 65vh;
+    /* text-align: center; */
+    /* margin:auto; */
+}
+.box2{
+    background: rgb(231, 221, 221);
+    height: 160px;
+    width: 160px;
+    position: relative;
+    left: 120px;
+    
+}
+
+.myGrad{
+    position: relative;
+    margin-top: 20px;
+}
+
+.butto {
+    background-color:#eb5e28;
+    border-radius: 15px;
+    color: white;
+    position: relative;
+    bottom: 83vh;
+    left: 22vw;
+    height: 40px;
+    width: 60%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .tags{
+    color:  #f7931e;
+    text-align: center;
+}
+.BTN{
+    background: grey;
+    position: relative;
+    bottom: 83vh;
+}
+
+ /*testimonial section*/
+
+ .testimonial{
       
-       
-   }
-   .orangebox {
-     text-align: center;
-     width: 90px;
-     height: 90px;
-     background: #eb5e28;
- }
- 
- .adaboxx{
+      background:rgb(56, 55, 55); 
+      width: 102vw;
+      height: 180vh;
      position: relative;
-     left: 40px;
-     height: 20vh;
-     width: 20vw;
- 
- }
- .Adabox{  
-     width: 20vw;
- }
- .Adabox1{
-     position: relative;
-     bottom: 23vh;
- }
- .one{
-     position: relative;
-     bottom: 24vh;
- }
- .Adabox2{
-     bottom: 280px;
- }
- .two{
-     position: relative;
-     bottom: 45vh;
- }
- .Adabox3{
-    bottom: 430px;
- }
- .three{
-     position: relative;
-     bottom:69vh;
- }
- .textss{
-    bottom: 150px;
+     bottom: 82vh;
+     left: -10px;
      
- }
- .textss1{
-   bottom: 300px;  
- }
- .textss2{
-    bottom: 430px;  
- }
- .textss3{
-     bottom: 580px;    
- }
- .textbox{
-     position: relative;
-     display: flex;
-     left: 150px;
-     height: 40vh;
-     width: 50vw;
-     text-align: left;
+      
+  }
+  .orangebox {
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    background: #eb5e28;
+}
+
+.adaboxx{
+    position: relative;
+    left: 40px;
+    height: 20vh;
+    width: 20vw;
+
+}
+.Adabox{  
+    width: 20vw;
+}
+.Adabox1{
+    position: relative;
+    bottom: 23vh;
+}
+.one{
+    position: relative;
+    bottom: 24vh;
+}
+.Adabox2{
+    bottom: 280px;
+}
+.two{
+    position: relative;
+    bottom: 45vh;
+}
+.Adabox3{
+   bottom: 430px;
+}
+.three{
+    position: relative;
+    bottom:69vh;
+}
+.textss{
+   bottom: 150px;
+    
+}
+.textss1{
+  bottom: 300px;  
+}
+.textss2{
+   bottom: 430px;  
+}
+.textss3{
+    bottom: 580px;    
+}
+.textbox{
+    position: relative;
+    display: flex;
+    left: 150px;
+    height: 40vh;
+    width: 50vw;
+    text-align: left;
+
+}
  
- }
+
+
+.logodiv{
+  display: flex;
   
+  flex-direction: row;
+
+
+}
+.orangebox {
+  text-align: center;
+  width: 90px;
+  height: 90px;
+  background: #eb5e28;
+}
+
+
+.logo{
+    position: relative;
+    
+    display: flex;
+}
+.imgs{
+  position: relative;
+  
+  
+}
+.testmonialText{
+  position: absolute;
+  left: 150px;
+  
+  
+  
+}
+
+/* get in touch section*/
+
+.getintouch{
+    background:rgb(56, 55, 55); 
+    height: 90vh;
+    width: 102vw;
+    position: relative;
+    text-align: center;
+    bottom: 80vh;
+    left: -6px;
+
+}
+
+#fname{
+    background: white;
+    height: 5vh;
+    width: 80vw;
+    background-color: grey;
+}
+#email{
+    background-color: gray;
+    height: 5vh;
+    width: 80vw;
+}
+#message{
+    background: gray;
+    height: 25vh;
+    width: 80vw;
+
+}
+.footer{
+    text-align: center;
+    word-spacing: 30px;
+    position: relative;
+    bottom: 80vh;
+}
+.copy{
+    text-align: center;
+    position: relative;
+    bottom: 85vh;
+}
+.send{
+    position: relative;
+    top: 8vh;
+    left: -16px;
+}
+.git{
+    position: relative;
+    left:-23px;
+    top: 1vh;
+}
+.lin{
+    position: relative;
+    left:-8px;
+    top: 1vh;
+}
+.enve{
+    position: relative;
+    left:5px;
+    top: 1vh;
+}
+.pho{
+    position: relative;
+    left:23px;
+    top: 1vh;
+}
+  /* --------------------------------------------------------------media queries */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // -------------------------------------------------------------Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (orientation: landscape) { 
  
- 
- .logodiv{
-   display: flex;
+  
+}
+
+/* // --------------------------------------------------------------Medium devices (tablets) */
+@media (min-width: 768px) {
+    .block{
+        
+        height: 30vh;
+
+    }
+}
+
+/* // --------------------------------------------------------------Large devices (ipad pro) */
+@media (min-width: 992px) { 
+    .block{
+        height: 30vh;
+    }
+
    
-   flex-direction: row;
- 
- 
- }
- .orangebox {
-   text-align: center;
-   width: 90px;
-   height: 90px;
-   background: #eb5e28;
- }
- 
- 
- .logo{
+}
+  @media screen and (min-width: 1200px) {
+    /* html{
+        overflow: hidden;
+    } */
+
+    /* icons */
+    .icons{
+        text-align: right;
+    }
+
+    #myNav{
+    display: none;
+    }
+    ul.desktop-nav{
+        list-style: none;
+    }
+    ul.desktop-nav li{
+        display: inline-block;
+        margin: 0 20px;
+        text-transform: uppercase;
+    }
+    ul.desktop-nav li a{
+        color: white;
+    }
+    ul.desktop-nav li a.active{
+        color: hotpink;
+    }
+
+
+    .Desktop{
+    display: block;
+    color: white;
+    }  
+    .mobile{
+    display: none;
+    }
+    .dots{
+        display: none;
+    }
+   
+  .combined{
      position: relative;
-     
-     display: flex;
+     left: 1300px;
+     bottom: -60px;
+    }
+
+  #Home{
+    color: white;
+    position: relative;
+    left: 600px;
+    bottom:-105px;
+  
+}
+#AboutMe{
+    color: white;
+    position: relative;
+    left: 683px;
+    bottom: -86px;
+  
+}
+#JOURNEY{
+    color: white;
+    position: relative;
+    left: 800px;
+    bottom: -68px;
+   
+}
+#RESUME{
+    color: white;
+    position: relative;
+    left: 900px;
+    bottom: -50px;
+    
+}
+
+#TESTIMONIES{
+    color: white;
+    position: relative;
+    left: 1005px;
+    bottom: -30px;
+}
+
+.myName{
+    position: relative;
+    left: 90px;
+}
+
+.block{
+    width: 90vw;
+    height:50vh;
+    position: relative;
+    bottom: 30vh;
+    left: 80px;
+
+    
+}
+p{
+    display: inline-block;
+    text-align: center;
+}
+
+/*about section*/
+
+
+
+.about{
+    width: 90vw;
+    height:90vh;
+    position: relative;
+    left: 80px
+    
+}
+/* .abt{
+    position: relative;
+    display: flex;
+    
+
+} */
+.aboutImg{
+    position: relative;
+}
+.box1{
+    height: 290px;
+    width: 290px;
+    position: relative;
+    left: 150px;
+}
+.myImg{
+    height: 290px;
+    width: 290px;
+    position: relative;
+    
+}
+
+.aboutBTN{
+    display: none;
+}
+.myName{
+    position: relative;
+    left: 100px;
+    display: inline-block;
+}
+/* im a graduate section*/
+.graduate{
+    width:90vw;
+    height: 90vh;
+}
+
+/*testinonial section*/
+ .testimonial{
+     width: 90vw;
+     height: 130vh;
  }
- .imgs{
-   position: relative;
-   
-   
- }
- .testmonialText{
-   position: absolute;
-   left: 150px;
-   
-   
-   
- }
- 
- /* get in touch section*/
- 
+
+
+ /*get in touch section */
  .getintouch{
-     background:rgb(56, 55, 55); 
-     height: 90vh;
-     width: 102vw;
-     position: relative;
-     text-align: center;
-     bottom: 80vh;
-     left: -6px;
- 
+     width: 90vw;
+     height: 80vh;
  }
- 
  #fname{
-     background: white;
-     height: 5vh;
-     width: 80vw;
-     background-color: grey;
+     width: 40vw;
+     
  }
  #email{
-     background-color: gray;
-     height: 5vh;
-     width: 80vw;
+     width: 40vw;
  }
  #message{
-     background: gray;
-     height: 25vh;
-     width: 80vw;
- 
+     width: 40vw;
  }
- .footer{
-     text-align: center;
-     word-spacing: 30px;
-     position: relative;
-     bottom: 80vh;
- }
+
  .copy{
      text-align: center;
      position: relative;
-     bottom: 85vh;
  }
- .send{
-     position: relative;
-     top: 8vh;
-     left: -16px;
- }
- .git{
-     position: relative;
-     left:-23px;
-     top: 1vh;
- }
- .lin{
-     position: relative;
-     left:-8px;
-     top: 1vh;
- }
- .enve{
-     position: relative;
-     left:5px;
-     top: 1vh;
- }
- .pho{
-     position: relative;
-     left:23px;
-     top: 1vh;
- }
-   /* --------------------------------------------------------------media queries */
- 
- /* // Extra small devices (portrait phones, less than 576px) */
- /* // No media query for `xs` since this is the default in Bootstrap */
- 
- /* // -------------------------------------------------------------Small devices (landscape phones, 576px and up) */
- @media (min-width: 576px) and (orientation: landscape) { 
-  
-   
- }
- 
- /* // --------------------------------------------------------------Medium devices (tablets) */
- @media (min-width: 768px) {
-     .block{
-         
-         height: 30vh;
- 
-     }
- }
- 
- /* // --------------------------------------------------------------Large devices (ipad pro) */
- @media (min-width: 992px) { 
-     .block{
-         height: 30vh;
-     }
- 
-    
- }
-   @media screen and (min-width: 1200px) {
-     /* html{
-         overflow: hidden;
-     } */
- 
-     /* icons */
-     .icons{
-         text-align: right;
-     }
- 
-     #myNav{
-     display: none;
-     }
-     ul.desktop-nav{
-         list-style: none;
-     }
-     ul.desktop-nav li{
-         display: inline-block;
-         margin: 0 20px;
-         text-transform: uppercase;
-     }
-     ul.desktop-nav li a{
-         color: white;
-     }
-     ul.desktop-nav li a.active{
-         color: hotpink;
-     }
- 
- 
-     .Desktop{
-     display: block;
-     color: white;
-     }  
-     .mobile{
-     display: none;
-     }
-     .dots{
-         display: none;
-     }
-    
-   .combined{
-      position: relative;
-      left: 1300px;
-      bottom: -60px;
-     }
- 
-   #Home{
-     color: white;
-     position: relative;
-     left: 600px;
-     bottom:-105px;
-   
- }
- #AboutMe{
-     color: white;
-     position: relative;
-     left: 683px;
-     bottom: -86px;
-   
- }
- #JOURNEY{
-     color: white;
-     position: relative;
-     left: 800px;
-     bottom: -68px;
-    
- }
- #RESUME{
-     color: white;
-     position: relative;
-     left: 900px;
-     bottom: -50px;
-     
- }
- 
- #TESTIMONIES{
-     color: white;
-     position: relative;
-     left: 1005px;
-     bottom: -30px;
- }
- 
- .myName{
-     position: relative;
-     left: 90px;
- }
- 
- .block{
-     width: 90vw;
-     height:50vh;
-     position: relative;
-     bottom: 30vh;
-     left: 80px;
- 
-     
- }
- p{
-     display: inline-block;
-     text-align: center;
- }
- 
- /*about section*/
- 
- 
- 
- .about{
-     width: 90vw;
-     height:90vh;
-     position: relative;
-     left: 80px
-     
- }
- /* .abt{
-     position: relative;
-     display: flex;
-     
- 
- } */
- .aboutImg{
-     position: relative;
- }
- .box1{
-     height: 290px;
-     width: 290px;
-     position: relative;
-     left: 150px;
- }
- .myImg{
-     height: 290px;
-     width: 290px;
-     position: relative;
-     
- }
- 
- .aboutBTN{
-     display: none;
- }
- .myName{
-     position: relative;
-     left: 100px;
-     display: inline-block;
- }
- /* im a graduate section*/
- .graduate{
-     width:90vw;
-     height: 90vh;
- }
- 
- /*testinonial section*/
-  .testimonial{
-      width: 90vw;
-      height: 130vh;
+.logodiv{
+text-align: center;
+}
+
   }
- 
- 
-  /*get in touch section */
-  .getintouch{
-      width: 90vw;
-      height: 80vh;
-  }
-  #fname{
-      width: 40vw;
-      
-  }
-  #email{
-      width: 40vw;
-  }
-  #message{
-      width: 40vw;
-  }
- 
-  .copy{
-      text-align: center;
-      position: relative;
-  }
- .logodiv{
- text-align: center;
- }
- 
-   }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
