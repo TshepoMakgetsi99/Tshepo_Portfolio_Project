@@ -1,5 +1,3 @@
-
-
 body{
    background-color: black;
    font-family: 'Montserrat', sans-serif;
@@ -99,297 +97,79 @@ hr{
     display: none;
 
 }
-
-
-
- 
-  .name{
-    text-align: center;
-    color:  #eb5e28;
-    margin-bottom: 150px;
+.profile-image{
+    box-shadow: -20px -20px gray;
+   margin-top: 2vh;
 }
 
 
-
-
-.tag{
-    color:  #f7931e;
-    text-align: center;
-}
-
-/*about section*/
-
-.about{
-    background:   rgb(56, 55, 55);
-    height: 90vh;
-    width: 102vw;
-    text-align: center;
-    position: relative;
-    left: -6px;
-    bottom: 30vh;
-    /* text-align: center; */
-    /* margin:auto; */
-}
-.box1{
-    background: rgb(231, 221, 221);
-    height: 160px;
-    width: 160px;
-    position: relative;
-    left: 120px;
-    
-}
-
-.myName{
-    position: relative;
-    margin-top: 20px;
-}
-
-.button {
-    background-color:#eb5e28;
-    border-radius: 15px;
-    color: white;
-    position: relative;
-    bottom: 39vh;
-    left: 22vw;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
-
-  /*ADA graduate page*/
-  .Grad{
-    background:   rgb(56, 55, 55);
-    height: 100vh;
-    width: 102vw;
-    text-align: center;
-    position: relative;
-    left: -8px;
-    bottom: 65vh;
-    /* text-align: center; */
-    /* margin:auto; */
-}
-.box2{
-    background: rgb(231, 221, 221);
-    height: 160px;
-    width: 160px;
-    position: relative;
-    left: 120px;
-    
-}
-
-.myGrad{
-    position: relative;
-    margin-top: 20px;
+/* general styles */
+.hide-on-mobile{
+    display: none;
 }
 
 .butto {
-    background-color:#eb5e28;
-    border-radius: 15px;
     color: white;
-    position: relative;
-    bottom: 83vh;
-    left: 22vw;
-    height: 40px;
-    width: 60%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
-  .tags{
-    color:  #f7931e;
-    text-align: center;
+    background: #f7931e;
+    width: 60vw;
+    height: 7vh;
+    border-radius: 25px;
+    margin-top: 5vh;
+    margin-left: 10vw;
 }
-.BTN{
-    background: grey;
-    position: relative;
-    bottom: 83vh;
-}
-
- /*testimonial section*/
-
- .testimonial{
-      
-      background:rgb(56, 55, 55); 
-      width: 102vw;
-      height: 180vh;
-     position: relative;
-     bottom: 82vh;
-     left: -10px;
-     
-      
-  }
-  .orangebox {
+.orangebox {
     text-align: center;
     width: 90px;
     height: 90px;
     background: #eb5e28;
 }
-
-.adaboxx{
-    position: relative;
-    left: 40px;
-    height: 20vh;
-    width: 20vw;
-
-}
-.Adabox{  
-    width: 20vw;
-}
-.Adabox1{
-    position: relative;
-    bottom: 23vh;
-}
-.one{
-    position: relative;
-    bottom: 24vh;
-}
-.Adabox2{
-    bottom: 280px;
-}
-.two{
-    position: relative;
-    bottom: 45vh;
-}
-.Adabox3{
-   bottom: 430px;
-}
-.three{
-    position: relative;
-    bottom:69vh;
-}
-.textss{
-   bottom: 150px;
+ /* testimonals section */
+ .TestimonalsDiv{
+    width: 90vw;
+    height: 235vh;
+    margin: auto;
+    text-align: center;
+    background: rgb(41, 40, 40); 
+  }
+  .card{
+    background: rgb(41, 40, 40); 
+    border-radius: 0;
+    border-width: 0;
+  }
+.TestimonalsHeading{
+      margin-top: 15px;
+      font-weight: 400;
+      opacity: 1;
+  }
+  .TestimonalsContent{
+      font-size: 14px;
+      font-weight: 250;
+      line-height: 18px;
+      text-align: justify;
+      text-size-adjust: 2px;
+      color: white;
     
+  }
+  .TestimonalsContactText{
+      font-size: 16px;
+      text-align: center;
+  }
+  .TestimonalsDivs{
+    margin-bottom: 20px;
 }
-.textss1{
-  bottom: 300px;  
-}
-.textss2{
-   bottom: 430px;  
-}
-.textss3{
-    bottom: 580px;    
-}
-.textbox{
-    position: relative;
-    display: flex;
-    left: 150px;
-    height: 40vh;
-    width: 50vw;
-    text-align: left;
-
-}
- 
+  .ContactDiv{
+      width: 100%;
+      height: 8%;
+      background-color:#eb5e28 ;
+      color: white;
+  }
 
 
-.logodiv{
-  display: flex;
-  
-  flex-direction: row;
-
-
+/* menu */
+.menu{
+    margin-left:40vw ;
+    margin-top:-23vh ;
 }
-.orangebox {
-  text-align: center;
-  width: 90px;
-  height: 90px;
-  background: #eb5e28;
-}
-
-
-.logo{
-    position: relative;
-    
-    display: flex;
-}
-.imgs{
-  position: relative;
-  
-  
-}
-.testmonialText{
-  position: absolute;
-  left: 150px;
-  
-  
-  
-}
-
-/* get in touch section*/
-
-.getintouch{
-    background:rgb(56, 55, 55); 
-    height: 90vh;
-    width: 102vw;
-    position: relative;
-    text-align: center;
-    bottom: 80vh;
-    left: -6px;
-
-}
-
-#fname{
-    background: white;
-    height: 5vh;
-    width: 80vw;
-    background-color: grey;
-}
-#email{
-    background-color: gray;
-    height: 5vh;
-    width: 80vw;
-}
-#message{
-    background: gray;
-    height: 25vh;
-    width: 80vw;
-
-}
-.footer{
-    text-align: center;
-    word-spacing: 30px;
-    position: relative;
-    bottom: 80vh;
-}
-.copy{
-    text-align: center;
-    position: relative;
-    bottom: 85vh;
-}
-.send{
-    position: relative;
-    top: 8vh;
-    left: -16px;
-}
-.git{
-    position: relative;
-    left:-23px;
-    top: 1vh;
-}
-.lin{
-    position: relative;
-    left:-8px;
-    top: 1vh;
-}
-.enve{
-    position: relative;
-    left:5px;
-    top: 1vh;
-}
-.pho{
-    position: relative;
-    left:23px;
-    top: 1vh;
-}
-  /* --------------------------------------------------------------media queries */
-
-/* // Extra small devices (portrait phones, less than 576px) */
-/* // No media query for `xs` since this is the default in Bootstrap */
-
-/* // -------------------------------------------------------------Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (orientation: landscape) { 
  
   
@@ -406,8 +186,18 @@ hr{
 
 /* // --------------------------------------------------------------Large devices (ipad pro) */
 @media (min-width: 992px) { 
-    .block{
-        height: 30vh;
+
+    .show-on-desktop{
+        display: block;
+    }
+    .hide-on-desktop{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .social-icons{
+        text-align: right;
     }
 
    
@@ -458,45 +248,8 @@ hr{
      bottom: -60px;
     }
 
-  #Home{
-    color: white;
-    position: relative;
-    left: 600px;
-    bottom:-105px;
-  
-}
-#AboutMe{
-    color: white;
-    position: relative;
-    left: 683px;
-    bottom: -86px;
-  
-}
-#JOURNEY{
-    color: white;
-    position: relative;
-    left: 800px;
-    bottom: -68px;
-   
-}
-#RESUME{
-    color: white;
-    position: relative;
-    left: 900px;
-    bottom: -50px;
-    
-}
-
-#TESTIMONIES{
-    color: white;
-    position: relative;
-    left: 1005px;
-    bottom: -30px;
-}
-
 .myName{
-    position: relative;
-    left: 90px;
+  text-align: center;
 }
 
 .block{
@@ -513,82 +266,74 @@ p{
     text-align: center;
 }
 
-/*about section*/
-
-
-
-.about{
-    width: 90vw;
-    height:90vh;
-    position: relative;
-    left: 80px
-    
-}
-/* .abt{
-    position: relative;
-    display: flex;
-    
-
-} */
-.aboutImg{
-    position: relative;
-}
-.box1{
-    height: 290px;
-    width: 290px;
-    position: relative;
-    left: 150px;
-}
-.myImg{
-    height: 290px;
-    width: 290px;
-    position: relative;
-    
+.butto {
+  display: none;
+} 
+.buttoTwo{
+    display: block;
 }
 
-.aboutBTN{
-    display: none;
-}
-.myName{
-    position: relative;
-    left: 100px;
+.buttons{
     display: inline-block;
+    margin: 0 20px;
+    color: white;
+    background: #f7931e;
+    width: 15vw;
+    height: 7vh;
+    border-radius: 25px;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    
 }
-/* im a graduate section*/
-.graduate{
-    width:90vw;
-    height: 90vh;
+.orangebox {
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    background: #eb5e28;
 }
-
-/*testinonial section*/
- .testimonial{
-     width: 90vw;
-     height: 130vh;
- }
-
-
- /*get in touch section */
- .getintouch{
-     width: 90vw;
-     height: 80vh;
- }
- #fname{
-     width: 40vw;
-     
- }
- #email{
-     width: 40vw;
- }
- #message{
-     width: 40vw;
- }
-
- .copy{
-     text-align: center;
-     position: relative;
- }
-.logodiv{
-text-align: center;
-}
-
+ /* testimonals section */
+ .TestimonalsDiv{
+    width: 86vw;
+    height: 100vh;
   }
+  .TestimonalsHeading{
+    font-weight: 300;
+    text-align: center;
+    font-size: 2em;
+    width: 20vw;
+    margin-top: 8vh;
+}
+.TestimonalImage{
+    width: 10vw;
+    height: 15vh;
+  }
+  .ContactDiv{
+    width: 10vw;
+    height: 15vh;
+}
+.lectureImages{
+    width: 10vw;
+    height: 15vh;
+  }
+  .TestimonalsContent{
+    margin-left: -5vw;
+    width: 20vw;
+   
+ }
+.firstColums{
+    margin-left: -5vw;
+
+}
+.firstColumsText{
+    margin-left: -20vw;
+
+}
+
+.secondColums{
+    transform: translate(30vw,-80vh);
+}
+
+}
+
+
+/* @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){} } */
