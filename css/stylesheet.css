@@ -20,6 +20,10 @@ h1.hot-pink{
     letter-spacing: 0.2em;
     text-transform: uppercase;
     font-weight: 300;
+
+}
+.about{
+    margin-bottom: 15vh;
 }
 h1.tagline{
     font-weight: 200;
@@ -99,40 +103,67 @@ hr{
 }
 .profile-image{
     box-shadow: -20px -20px gray;
-   margin-top: 2vh;
+   margin-bottom: 10vh;
 }
+.logo{
+    margin-bottom: 10vh;
+}
+.btn{
+margin-left: 20vw;
+margin-top:10vh ;
+background-color: hotpink;
+border: none;
+color: white;
+padding: 10px;
+text-decoration: none;
+font-size: 16px;
+border-radius: 50%; 
 
+}
+.buttons{
+margin-left: 5vw;
+display: grid;
+
+
+}
+.bts{
+background-color: hotpink;
+border: none;
+color: white;
+padding: 10px;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+border-radius: 50%; 
+}
+.bt{
+margin-top:5vh ;
+background-color: hotpink;
+border: none;
+color: white;
+padding: 10px;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+border-radius: 50%; 
+}
 
 /* general styles */
 .hide-on-mobile{
     display: none;
 }
 
-.butto {
-    color: white;
-    background: #f7931e;
-    width: 60vw;
-    height: 7vh;
-    border-radius: 25px;
-    margin-top: 5vh;
-    margin-left: 10vw;
-}
-.orangebox {
-    text-align: center;
-    width: 90px;
-    height: 90px;
-    background: #eb5e28;
-}
+
  /* testimonals section */
  .TestimonalsDiv{
-    width: 90vw;
+    width: 100vw;
     height: 235vh;
-    margin: auto;
+    margin-left: -5vw;
     text-align: center;
-    background: rgb(41, 40, 40); 
+    
   }
   .card{
-    background: rgb(41, 40, 40); 
+   
     border-radius: 0;
     border-width: 0;
   }
@@ -160,16 +191,10 @@ hr{
   .ContactDiv{
       width: 100%;
       height: 8%;
-      background-color:#eb5e28 ;
+      background-color:hotpink;
       color: white;
   }
 
-
-/* menu */
-.menu{
-    margin-left:40vw ;
-    margin-top:-23vh ;
-}
 @media (min-width: 576px) and (orientation: landscape) { 
  
   
@@ -178,9 +203,11 @@ hr{
 /* // --------------------------------------------------------------Medium devices (tablets) */
 @media (min-width: 768px) {
     .block{
-        
         height: 30vh;
+    }
 
+    .hide-on-mobile{
+        display: block;
     }
 }
 
@@ -200,12 +227,13 @@ hr{
         text-align: right;
     }
 
+    .hide-on-mobile{
+        display: block;
+    }
+
    
 }
   @media screen and (min-width: 1200px) {
-    /* html{
-        overflow: hidden;
-    } */
 
     /* icons */
     .icons{
@@ -238,28 +266,36 @@ hr{
     .mobile{
     display: none;
     }
-    .dots{
-        display: none;
-    }
+  
    
-  .combined{
-     position: relative;
-     left: 1300px;
-     bottom: -60px;
-    }
+  /* ---Start Styling the Testimnial Section--- */
+  .testimonialText
+  {
+      position: relative;
+      left: 15vw;
+      bottom: 10vh;
+  }
+  /* ---End Styling the Testimnial Section--- */
 
 .myName{
   text-align: center;
 }
-
-.block{
-    width: 90vw;
-    height:50vh;
-    position: relative;
-    bottom: 30vh;
-    left: 80px;
-
-    
+/* Arrow */
+.arrows{
+   margin-top: 3vh;
+   margin-left: -0.5vw;
+  
+}
+.arrow{
+    margin-left: 35vw;
+    margin-top: 20vh;
+    font-size: 22px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    height: 70px;
+    width: 40px;
+    padding-top: 2px;
+   
 }
 p{
     display: inline-block;
@@ -331,6 +367,10 @@ p{
 
 .secondColums{
     transform: translate(30vw,-80vh);
+}
+
+.hide-on-mobile{
+    display: block;
 }
 
 }
