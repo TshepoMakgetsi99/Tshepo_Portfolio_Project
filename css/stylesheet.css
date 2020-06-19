@@ -170,61 +170,48 @@ body{
   }
 
   /* get in touch section */
-.getin{
-    overflow: hidden;
-}
-.Get-in-touch {
-    height: 120vh;
-}
 
-.intouchline {
-    margin-top: 20vh;
-}
-
-.touchtext {
+  .touchtext {
     margin-top: 10vh;
 }
 
 .touch-butto {
     margin-top: 10vh;
+    margin-left: 20vw;
 }
 
-.inputone {
+.email {
     background: grey;
     width: 80vw;
     height: 7vh;
+    margin-left: 10vw;
 }
 
-.lname {
-    background: grey;
-    width: 80vw;
-    height: 7vh;
-}
-
-.Tname {
+.massege {
     background: grey;
     width: 80vw;
     height: 30vh;
+    margin-left: 10vw;
 }
 
  ::placeholder {
     color: white;
     padding: 10px;
 }
-.btns {
-    margin-right: 40vw;
-    margin-top: 4vh;
-}
 .F-Icons{
     margin-left: 25vw;
-    margin-top: -4vh;
+    margin-top: 4vh;
 }
+
 .copyright{
     text-align: center;
     font-size: 0.8em;
 }
 .Tshepo{
     color: white;
+}
+.send{
+    margin-top: 3em;
 }
  @media (min-width: 576px) and (orientation: landscape) { 
     .but3{
@@ -312,6 +299,9 @@ margin-top: -5vh;
     margin-left:-14vw ;
     margin-top: -5vh;
     }
+    .send{
+        margin-left: 40vw;
+    }
     .LinkD{
         margin-left: 13vw;
         color: white;
@@ -320,10 +310,13 @@ margin-top: -5vh;
         margin-right: 10vw;
         margin-top: 4vh;
     }
+    .Getin{
+        margin-left: -2em;
+    }
 
     .F-Icons{
         margin-left: 40vw;
-        margin-top: -4vh;
+        margin-top: 2vh;
     }
     .copyright{
         margin-left: 8vw;
@@ -408,7 +401,14 @@ margin-top: -5vh;
  
 
 /* Arrow */
-.arrows{
+.arrow{
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid white;
+    font-weight: 20px;
+    padding: 25px 10px 10px 10px;
+    margin-left: 35vw;
+}
+/* .arrows{
    margin-top: 3vh;
    margin-left: -0.5vw;
   
@@ -423,7 +423,7 @@ margin-top: -5vh;
     width: 40px;
     padding-top: 2px;
    
-}
+} */
 p{
     display: inline-block;
     text-align: center;
@@ -467,11 +467,35 @@ footer {
 .profile-imag{
     margin-left: 5vw;
 }
+/* Get-in-touch  section*/
+.email {
+    background: grey;
+    width: 50vw;
+    height: 7vh;
+    margin-left: 15vw;
+}
+.massege {
+    background: grey;
+    width: 50vw;
+    height: 30vh;
+    margin-left: 15vw;
+}
+.touch-butto {
+    display: block;
+    width: 20vw;
+    margin-left: 30vw;
+}
 .LinkD{
     margin-left: 3vw;
 }
+.send{
+    margin-left: 33vw;
+}
+.F-Icons{
+    margin-left: 45vw; 
+}
 .copyright{
-   margin-left: 40vw;
+   margin-left: 45vw;
 }
 }
 
