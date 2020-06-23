@@ -1,3 +1,7 @@
+html{
+    overflow-x: hidden;
+}
+
 h1.abt2{
     color: hotpink;
     text-transform: uppercase;
@@ -30,4 +34,16 @@ h1.abt2{
     color: white;
     text-align: center;
     margin-top: 2vh;
+}
+.Desktops{
+    display: none;
+}
+
+@media screen and (min-width: 1200px) {
+    .Mobiles{
+        display: none;
+    }
+    .Desktops{
+        display: block;
+    }
 }
