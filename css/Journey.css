@@ -1,0 +1,25 @@
+.Desktops{
+    display: none;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .Mobiles{
+        display: none;
+    }
+    .Desktops{
+        display: block;
+    }
+
+    h3{
+        color: hotpink;
+        text-align: center;
+    }
+    p{
+      color: white;  
+    }
+    .selected{
+        margin-top: -70vh;
+    }
+}

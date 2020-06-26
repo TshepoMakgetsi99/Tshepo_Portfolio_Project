@@ -1,0 +1,40 @@
+.icn{
+    
+    border: 1.5px solid hotpink;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: hotpink;
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .icn{
+     margin-left: 25vw;
+     background-color: white;
+     margin-top: 5vh;
+    }
+    .ic{
+        border: 1.5px solid hotpink;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        background-color: white;
+       }
+       .icoo{
+        border: 1.5px solid hotpink;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        background-color: white;
+      margin-left: 15vw;
+       }
+       .icn00{
+        border: 1.5px solid hotpink;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        background-color: white; 
+       }
+    }
+
