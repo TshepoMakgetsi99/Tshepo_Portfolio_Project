@@ -213,6 +213,11 @@ body{
 .send{
     margin-top: 3em;
 }
+
+.mrr{
+    margin-left:6vw ;
+    
+    }
  @media (min-width: 576px) and (orientation: landscape) { 
     .but3{
         margin-left:109vw ;
@@ -291,6 +296,7 @@ body{
 margin-left:39vw ;
 margin-top: -25vh;
 }
+
 .but1{
 margin-left:26vw ;
 margin-top: -5vh;
